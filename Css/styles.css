@@ -1,3 +1,4 @@
+/* FOOTER */
 .footer {
   position: fixed;
   bottom: 0;
@@ -25,7 +26,10 @@
 }
 
 /* Carrusel */
-
+.conocenos {
+    text-align: center;
+    margin-top: 5rem;
+}
 .mt-carrusel {
   margin-top: 6rem !important;
 }
@@ -41,6 +45,20 @@
   -webkit-box-shadow: 2px 15px 5px -11px rgba(135, 135, 135, 0.46);
   box-shadow: 2px 15px 5px -11px rgba(135, 135, 135, 0.46);
  
+}
+
+/* CARDS */
+
+.mt-card {
+    margin-top: 5rem !important;
+    
+}
+
+.valores {
+    text-align: center;
+    margin-bottom: 5rem;
+    
+   
 }
 
 @media (max-width: 500px) {
