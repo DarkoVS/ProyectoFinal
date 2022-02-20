@@ -54,21 +54,23 @@
     
 }
 
+.center-cards {
+    text-align: -webkit-center;
+}
+
 .valores {
     text-align: center;
     margin-bottom: 5rem;
-    
-   
+
 }
 
-@media (max-width: 500px) {
+.third-card {
+    padding-bottom: 50%;
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
   html {
     font-size: 50%;
   }
 }
 
-@media (min-width: 501px) and (max-width: 768px) {
-  html {
-    font-size: 50%;
-  }
-}
