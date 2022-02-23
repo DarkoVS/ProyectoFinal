@@ -39,7 +39,7 @@
   box-shadow: 1px 5px 15px 5px #878787;
 }
 
-/* Nav Shadow */
+/* Navbar */
 
 .nav-shadow {
   -webkit-box-shadow: 2px 15px 5px -11px rgba(135, 135, 135, 0.46);
@@ -59,6 +59,19 @@
 .valores {
   text-align: center;
   margin-bottom: 5rem;
+}
+
+.card-hover {
+  filter: none;
+  transition: 0.5s;
+}
+
+.card-hover:hover {
+  -webkit-box-shadow: 1px 5px 15px 5px #878787;
+  filter: contrast(102%);
+  box-shadow: 1px 5px 15px 5px #878787;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 /* CONTACTO */
