@@ -74,7 +74,17 @@
   transition: 0.5s;
 }
 
-/* CONTACTO */
+/* Productos */
+
+.margin {
+  margin-bottom: 10rem;
+  padding: 1rem;
+}
+
+.table-margin {
+  margin-bottom: 10rem;
+}
+
 
 
 
