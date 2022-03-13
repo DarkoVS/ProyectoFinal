@@ -1,7 +1,10 @@
-@import "_footer";
+@import "footer";
+@import "social";
+@import "variables";
+
 
 .icons {
-    padding-top: 1rem;
+    
     a {
         text-decoration: none;
         font-size: 2rem;
@@ -10,5 +13,38 @@
       }
     
   }
-asd
-   
+
+  /* MAPS */
+
+  $redes: ( 
+        twitter: #55acee,
+        facebook:  #3a5795,
+        instagram: #C25E30,
+        youtube: rgb(248, 17, 17),
+); 
+
+.icon-social {
+  font-size: 2.5rem;
+  padding: 0.5rem;
+}
+
+
+@each $red, $color in $redes {
+   &:hover.btn--#{$red} {
+       background-color: $color; 
+       @extend .icon-social
+     
+   }
+}
+
+
+/*MIXIN*/
+
+@mixin sizes($width, $height, $color) {
+  height: $height;
+  width: $width;
+  background-color: $color
+}
+.box {
+  @include sizes(500px, 50px, red);
+}

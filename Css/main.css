@@ -5,12 +5,58 @@
   width: 100%;
   background: #263238;
   text-align: center;
+  color: #f4f4f4;
+  font-size: 20px; }
+
+.social {
+  background-color: #aaa;
+  width: 50px;
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  margin-right: 1rem;
+  border-radius: 50px; }
+  .social ul {
+    list-style: none;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column; }
+    .social ul li {
+      transition: all 0.5s ease; }
+      .social ul li a {
+        color: #f4f4f4;
+        text-decoration: none;
+        font-size: 1.5rem; }
+      .social ul li:hover {
+        transform: scale(1.4); }
+
+.icons a {
+  text-decoration: none;
+  font-size: 2rem;
+  margin: 0.5rem;
   color: #f4f4f4; }
 
-.icons {
-  padding-top: 1rem; }
-  .icons a {
-    text-decoration: none;
-    font-size: 2rem;
-    margin: 0.5rem;
-    color: #f4f4f4; }
+/* MAPS */
+.icon-social, .btn--twitter:hover, .btn--facebook:hover, .btn--instagram:hover, .btn--youtube:hover {
+  font-size: 2.5rem;
+  padding: 0.5rem; }
+
+:hover.btn--twitter {
+  background-color: #55acee; }
+
+:hover.btn--facebook {
+  background-color: #3a5795; }
+
+:hover.btn--instagram {
+  background-color: #C25E30; }
+
+:hover.btn--youtube {
+  background-color: #f81111; }
+
+/*MIXIN*/
+.box {
+  height: 50px;
+  width: 500px;
+  background-color: red; }
