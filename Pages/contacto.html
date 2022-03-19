@@ -16,6 +16,7 @@
 
 <body background="../Img/ropita6.jpg">
     <header>
+        
         <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark nav-shadow">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html"><img src="../Img/Logo Blanco.png" alt="" /></a>
@@ -54,6 +55,7 @@
     <!-- FORMULARIO CONTACTO -->
     <main>
 
+        <form action="https://formspree.io/f/mvolqdwg" method="post">
         <div class="container-fluid">
             <div class="container">
                 <div>
@@ -65,20 +67,20 @@
                         <div class="row">
                             <div class="col mb-3">
                                 <label class="form-label text-white bg-secondary p-1   ">Nombre</label>
-                                <input type="text" class="form-control" placeholder="Nombre">
+                                <input name="nombre" type="text" class="form-control" placeholder="nombre">
                             </div>
                             <div class="col mb-3">
                                 <label class="form-label text-white bg-secondary p-1 rounded">Apellido</label>
-                                <input type="text" class="form-control" placeholder="Apellido">
+                                <input name="apellido" type="text" class="form-control" placeholder="Apellido">
                             </div>
                         </div>
                         <div class="mb-3">
                             <label class="form-label text-white bg-secondary p-1 rounded">Email:</label>
-                            <input type="text" class="form-control" placeholder="nombre@gmail.com">
+                            <input required name="email" type="text" class="form-control" placeholder="nombre@gmail.com">
                         </div>
                         <div class="mb-3">
                             <label class="form-label text-white bg-secondary p-1 rounded">Asunto</label>
-                            <input type="text" class="form-control" placeholder="Asunto">
+                            <input name="asunto" type="text" class="form-control" placeholder="Asunto">
                         </div>
                         <div class="mb-3">
                             <label class="form-label text-white bg-secondary p-1 rounded">Mensaje:</label>
@@ -86,38 +88,13 @@
                         </div>
                         <!-- Button trigger modal -->
                         <div class="text-center">
-                        <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal"
+                        <button type="submit" value="submit" class="btn btn-primary mt-3" 
                             data-bs-target="#exampleModal">
                             Enviar
                         </button>
                     </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Pachamama Clothes</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        ¿Esta seguro que quiere enviar este mensaje? <div class="jdsjidashd">
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-bs-dismiss="modal">Cerrar</button>
-                                            <button type="button" class="btn btn-primary">Enviar</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
+                </form>
+                        
 
 
 
